@@ -447,9 +447,8 @@ section#cont_02 #journal .cont_part .box .txt_part ul{}
 section#cont_02 #journal .cont_part .box .txt_part ul li{
     display: flex;
 }
-section#cont_02 #journal .cont_part .box .txt_part ul li::before{
+section#cont_02 #journal .cont_part .box .txt_part ul li:before{
     content: "-";
-    flex-wrap: nowrap;
     vertical-align: middle;
     padding: 0 5px;
     color: #aaa;
