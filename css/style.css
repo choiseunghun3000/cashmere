@@ -448,15 +448,16 @@ section#cont_02 #journal .cont_part .box .txt_part ul li{
     display: flex;
 }
 section#cont_02 #journal .cont_part .box .txt_part ul li:before{
-    content: "-";
-    vertical-align: middle;
-    padding: 0 5px;
+    content: "－";
     color: #aaa;
 }
 section#cont_02 #journal .cont_part .box .txt_part ul li p{
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 300;
     color: #aaa;
+    padding-top: 3px;
 }
+
 
 section#cont_02 #stores{
     width: 1200px;
